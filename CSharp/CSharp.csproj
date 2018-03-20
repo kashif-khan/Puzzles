@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="com.hackerrank\HolePuzzle.cs" />
     <Compile Include="com.hackerrank\PairPuzzle.cs" />
+    <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
     <Compile Include="com.hackerrank\TrimPuzzle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
