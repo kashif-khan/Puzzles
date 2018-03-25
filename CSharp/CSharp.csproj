@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandles.cs" />
+    <Compile Include="com.hackerrank\FindMedian.cs" />
     <Compile Include="com.hackerrank\HolePuzzle.cs" />
     <Compile Include="com.hackerrank\PairPuzzle.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
