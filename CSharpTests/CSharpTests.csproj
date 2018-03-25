@@ -62,12 +62,17 @@
     <Compile Include="com.hackerrank\PairPuzzleTests.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzleTests.cs" />
     <Compile Include="com.hackerrank\TrimPuzzleTests.cs" />
+    <Compile Include="FindPairWithGivenSumInTheArrayTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSharpPuzzleInputGenerator\CSharpPuzzleInputGenerator.csproj">
+      <Project>{b9105a8e-9cc2-4717-b240-7e196f5ca1c2}</Project>
+      <Name>CSharpPuzzleInputGenerator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharp\CSharp.csproj">
       <Project>{840E3E35-0368-4209-843D-69E256013222}</Project>
       <Name>CSharp</Name>
