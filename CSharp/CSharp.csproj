@@ -46,8 +46,10 @@
     <Compile Include="com.hackerrank\PairPuzzle.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
     <Compile Include="com.hackerrank\TrimPuzzle.cs" />
+    <Compile Include="Algorithm\Palindrome.cs" />
     <Compile Include="FindPairWithGivenSumInTheArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

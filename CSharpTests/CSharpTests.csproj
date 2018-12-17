@@ -56,6 +56,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Algorithm\PalindromeTests.cs" />
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandlesTests.cs" />
     <Compile Include="com.hackerrank\FindMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
@@ -78,6 +79,7 @@
       <Name>CSharp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
