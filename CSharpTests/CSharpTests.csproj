@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Algorithm\PalindromeTests.cs" />
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandlesTests.cs" />
+    <Compile Include="com.hackerrank\ConsecutiveSumTests.cs" />
     <Compile Include="com.hackerrank\FindMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
     <Compile Include="com.hackerrank\HourGlassTests.cs" />
