@@ -60,7 +60,9 @@
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandlesTests.cs" />
     <Compile Include="com.hackerrank\FindMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
+    <Compile Include="com.hackerrank\HourGlassTests.cs" />
     <Compile Include="com.hackerrank\PairPuzzleTests.cs" />
+    <Compile Include="com.hackerrank\SlantedCipherTests.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzleTests.cs" />
     <Compile Include="com.hackerrank\TrimPuzzleTests.cs" />
     <Compile Include="FindPairWithGivenSumInTheArrayTests.cs" />
