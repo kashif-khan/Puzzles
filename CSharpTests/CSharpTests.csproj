@@ -62,6 +62,7 @@
     <Compile Include="com.hackerrank\FindMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
     <Compile Include="com.hackerrank\HourGlassTests.cs" />
+    <Compile Include="com.hackerrank\LeftRotationOfArrayTests.cs" />
     <Compile Include="com.hackerrank\PairPuzzleTests.cs" />
     <Compile Include="com.hackerrank\SlantedCipherTests.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzleTests.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="com.hackerrank\Problem Statement\Arrays - Left Rotation.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

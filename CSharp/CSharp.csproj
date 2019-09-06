@@ -45,6 +45,7 @@
     <Compile Include="com.hackerrank\FindMedian.cs" />
     <Compile Include="com.hackerrank\HolePuzzle.cs" />
     <Compile Include="com.hackerrank\HourGlass.cs" />
+    <Compile Include="com.hackerrank\LeftRotationOfArray.cs" />
     <Compile Include="com.hackerrank\PairPuzzle.cs" />
     <Compile Include="com.hackerrank\SlantedCipher.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
