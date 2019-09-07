@@ -103,17 +103,5 @@ namespace CSharpTests.com.hackerrank
             var actualOutput = ConsecutiveSum.Solve(input);
             Assert.AreEqual(expectedOutput, actualOutput);
         }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        [TestMethod]
-        public void ConsecutiveSumTestCaseMaximum()
-        {
-            for (long input = 1; input < Math.Pow(10, 12); input++)
-            {
-                ConsecutiveSum.Solve(input);
-            }
-        }
     }
 }

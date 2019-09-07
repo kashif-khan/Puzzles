@@ -59,7 +59,7 @@
     <Compile Include="Algorithm\PalindromeTests.cs" />
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandlesTests.cs" />
     <Compile Include="com.hackerrank\ConsecutiveSumTests.cs" />
-    <Compile Include="com.hackerrank\FindMedianTests.cs" />
+    <Compile Include="com.hackerrank\FindTheMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
     <Compile Include="com.hackerrank\HourGlassTests.cs" />
     <Compile Include="com.hackerrank\LeftRotationOfArrayTests.cs" />
@@ -73,7 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="com.hackerrank\Problem Statement\Arrays - Left Rotation.pdf" />
+    <None Include="com.hackerrank\Problem Statement\Find the Median.pdf" />
     <None Include="com.hackerrank\Problem Statement\New Year Chaos.pdf" />
+    <None Include="com.hackerrank\Problem Statement\Time Conversion.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
