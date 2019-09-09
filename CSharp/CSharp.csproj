@@ -50,6 +50,7 @@
     <Compile Include="com.hackerrank\MinimumSwaps2.cs" />
     <Compile Include="com.hackerrank\NewYearChaos.cs" />
     <Compile Include="com.hackerrank\PairPuzzle.cs" />
+    <Compile Include="com.hackerrank\RepeatedString.cs" />
     <Compile Include="com.hackerrank\SlantedCipher.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
     <Compile Include="com.hackerrank\TrimPuzzle.cs" />
