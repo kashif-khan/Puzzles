@@ -60,6 +60,7 @@
     <Compile Include="com.hackerrank\ArrayManipulationTests.cs" />
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandlesTests.cs" />
     <Compile Include="com.hackerrank\ConsecutiveSumTests.cs" />
+    <Compile Include="com.hackerrank\CountingValleysTests.cs" />
     <Compile Include="com.hackerrank\FindTheMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
     <Compile Include="com.hackerrank\HourGlassTests.cs" />
@@ -78,6 +79,7 @@
   <ItemGroup>
     <None Include="com.hackerrank\Problem Statement\Array Manipulation.pdf" />
     <None Include="com.hackerrank\Problem Statement\Arrays - Left Rotation.pdf" />
+    <None Include="com.hackerrank\Problem Statement\Counting Valleys.pdf" />
     <None Include="com.hackerrank\Problem Statement\Find the Median.pdf" />
     <None Include="com.hackerrank\Problem Statement\Jumping on the Clouds.pdf" />
     <None Include="com.hackerrank\Problem Statement\Minimum Swaps 2.pdf" />

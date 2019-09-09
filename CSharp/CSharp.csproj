@@ -43,6 +43,7 @@
     <Compile Include="com.hackerrank\ArrayManipulation.cs" />
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandles.cs" />
     <Compile Include="com.hackerrank\ConsecutiveSum.cs" />
+    <Compile Include="com.hackerrank\CountingValleys.cs" />
     <Compile Include="com.hackerrank\FindTheMedian.cs" />
     <Compile Include="com.hackerrank\HolePuzzle.cs" />
     <Compile Include="com.hackerrank\HourGlass.cs" />
