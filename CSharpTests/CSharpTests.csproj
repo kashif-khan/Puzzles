@@ -64,6 +64,7 @@
     <Compile Include="com.hackerrank\FindTheMedianTests.cs" />
     <Compile Include="com.hackerrank\HolePuzzleTests.cs" />
     <Compile Include="com.hackerrank\HourGlassTests.cs" />
+    <Compile Include="com.hackerrank\ImageEditingTests.cs" />
     <Compile Include="com.hackerrank\JumpingOnTheCloudsTests.cs" />
     <Compile Include="com.hackerrank\LeftRotationOfArrayTests.cs" />
     <Compile Include="com.hackerrank\MinimumSwaps2Tests.cs" />
