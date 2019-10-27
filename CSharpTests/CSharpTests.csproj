@@ -57,6 +57,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Algorithm\PalindromeTests.cs" />
+    <Compile Include="com.hackerrank\AngryAnimalsTests.cs" />
     <Compile Include="com.hackerrank\ArrayManipulationTests.cs" />
     <Compile Include="com.hackerrank\ColleenBirthdayCakeCandlesTests.cs" />
     <Compile Include="com.hackerrank\ConsecutiveSumTests.cs" />
