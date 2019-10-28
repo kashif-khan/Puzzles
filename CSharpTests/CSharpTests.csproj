@@ -73,6 +73,7 @@
     <Compile Include="com.hackerrank\PairPuzzleTests.cs" />
     <Compile Include="com.hackerrank\RepeatedStringTests.cs" />
     <Compile Include="com.hackerrank\SlantedCipherTests.cs" />
+    <Compile Include="com.hackerrank\StockOpenClosePriceOnParticularWeekdaysTests.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzleTests.cs" />
     <Compile Include="com.hackerrank\TrimPuzzleTests.cs" />
     <Compile Include="FindPairWithGivenSumInTheArrayTests.cs" />
