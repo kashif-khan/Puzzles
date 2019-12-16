@@ -71,6 +71,7 @@
     <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
     <Compile Include="com.hackerrank\TrimPuzzle.cs" />
     <Compile Include="Algorithm\Palindrome.cs" />
+    <Compile Include="DataStructure\BinarySeachTree.cs" />
     <Compile Include="DataStructure\IntervalTree.cs" />
     <Compile Include="FindPairWithGivenSumInTheArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
