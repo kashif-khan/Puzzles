@@ -77,6 +77,8 @@
     <Compile Include="com.hackerrank\TimeConversionPuzzleTests.cs" />
     <Compile Include="com.hackerrank\TrimPuzzleTests.cs" />
     <Compile Include="DataStructure\BinarySeachTreeTests.cs" />
+    <Compile Include="DataStructure\Graph\Enumerators\BreadthFirstSearchEnumeratorTests.cs" />
+    <Compile Include="DataStructure\Graph\Enumerators\DepthFirstSearchEnumeratorTests.cs" />
     <Compile Include="DataStructure\IntervalTreeTests.cs" />
     <Compile Include="FindPairWithGivenSumInTheArrayTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
