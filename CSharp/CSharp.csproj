@@ -67,6 +67,7 @@
     <Compile Include="com.hackerrank\NewYearChaos.cs" />
     <Compile Include="com.hackerrank\PairPuzzle.cs" />
     <Compile Include="com.hackerrank\RepeatedString.cs" />
+    <Compile Include="com.hackerrank\SalesByMatch.cs" />
     <Compile Include="com.hackerrank\SlantedCipher.cs" />
     <Compile Include="com.hackerrank\StockOpenClosePriceOnParticularWeekdays.cs" />
     <Compile Include="com.hackerrank\TimeConversionPuzzle.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="com.hackerrank\ProblemStatement\SalesByMatch.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
