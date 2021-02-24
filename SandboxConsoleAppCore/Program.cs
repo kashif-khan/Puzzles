@@ -15,73 +15,73 @@ using System;
 class Solution
 {
 
-    // Complete the checkMagazine function below.
-    static void checkMagazine(string[] magazine, string[] note)
+    // Complete the sherlockAndAnagrams function below.
+    static int sherlockAndAnagrams(string s)
     {
-        const string Yes = nameof(Yes);
-        const string No = nameof(No);
-
-        if ((magazine.Length < note.Length) || magazine.Length < 1 || note.Length < 0)
+        var map = new Dictionary<char, List<int>>();
+        for (int i = 0; i < s.Length; i++)
         {
-            Console.WriteLine(No);
-            return;
-        }
-
-        var magWords = new Dictionary<string, int>();
-        var noteWords = new Dictionary<string, int>();
-
-        foreach (var word in magazine)
-        {
-            if (!magWords.ContainsKey(word))
+            if (!map.ContainsKey(s[i]))
             {
-                magWords.Add(word, 1);
+                map.Add(s[i], new List<int>() { i });
             }
             else
             {
-                magWords[word] += 1;
+                map[s[i]].Add(i);
             }
         }
 
-        foreach (var word in note)
+        var possibleAnagrams = map.Where(i => i.Value.Count > 1);
+
+        int count = 0;
+
+        foreach (var possibleAnagram in possibleAnagrams)
         {
-            if (!noteWords.ContainsKey(word))
+            for (int i = 0; i < possibleAnagram.Value.Count - 1; i++)
             {
-                noteWords.Add(word, 1);
+                if (CheckIfAnagram(possibleAnagram.Value[i], possibleAnagram.Value[i + 1], s))
+                {
+                    count++;
+                }
             }
-            else
-            {
-                noteWords[word] += 1;
-            }
+
+            count++;
         }
 
-        foreach (var item in noteWords)
+        return count;
+    }
+
+    private static bool CheckIfAnagram(int start, int end, string s)
+    {
+        while (start <= end)
         {
-            if (magWords.ContainsKey(item.Key) && magWords[item.Key] >= item.Value)
+            if (s[start++] != s[end--])
             {
-                continue;
-            }
-            else
-            {
-                Console.WriteLine(No);
-                return;
+                return false;
             }
         }
-
-        Console.WriteLine(Yes);
+        if (start == end || start > end)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     static void Main(string[] args)
     {
-        string[] mn = Console.ReadLine().Split(' ');
 
-        int m = Convert.ToInt32(mn[0]);
+        int q = Convert.ToInt32(Console.ReadLine());
 
-        int n = Convert.ToInt32(mn[1]);
+        for (int qItr = 0; qItr < q; qItr++)
+        {
+            string s = Console.ReadLine();
 
-        string[] magazine = Console.ReadLine().Split(' ');
+            int result = sherlockAndAnagrams(s);
 
-        string[] note = Console.ReadLine().Split(' ');
+        }
 
-        checkMagazine(magazine, note);
     }
 }
